@@ -1,5 +1,7 @@
 # VISION_YOLO_BLIP
-Проект распознавания предметов на столе. Данные были размечены через систему Roboflow.
+Проект распознавания предметов на столе. Запустить r requirements.txt. Данные надо распаковать в файте Video.v9i.yolov11.zip в корневую директрю и запустить файл *.ipynb.
+
+Данные были размечены через систему Roboflow.
 train: ../train/images
 val: ../valid/images
 test: ../test/images
