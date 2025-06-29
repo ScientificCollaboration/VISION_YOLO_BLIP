@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['basket', 'dish with food', 'fork', 'glass empty', 'glass plate', 'glass with tea', 'knife', 'paper', 'redpaper', 'spoon', 'sugar bag', 'table', 'tea pot']
+
+roboflow:
+  workspace: aalex11
+  project: video-ytrrz
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aalex11/video-ytrrz/dataset/9
