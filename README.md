@@ -46,7 +46,7 @@ Recall (mean): 0.836
 mAP@0.5: 0.863
 mAP@0.5:0.95: 0.690
 F1-score: 0.821
-
+Изображение Roboflow3.png - показывает изменения метрик по ходу обучения в Roboflow.
 Обучать желательно не менее чем на 50 эпохах. По умоляанию 10.
 Запуск альтернативной модели распознавания модели обученной на YOLO 11 разврнутая на сайте Roboflow https://app.roboflow.com/workflows/embed/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3b3JrZmxvd0lkIjoibFNxT2NkbDc5d2h6dHFqb242TEkiLCJ3b3Jrc3BhY2VJZCI6IkhsSzFwYWtDeUNYWHlLMHdUeHQ1aGhwdElnYTIiLCJ1c2VySWQiOiJIbEsxcGFrQ3lDWFh5SzB3VHh0NWhocHRJZ2EyIiwiaWF0IjoxNzUxMjEyNDAxfQ.G_JGtwYZU1f8EKTKeiszxSHpK39J2PGWxffmM5H95aM
 
