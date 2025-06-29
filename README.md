@@ -1,4 +1,6 @@
 # VISION_YOLO_BLIP
+Модель реализована в двух вариантах на питоне VISION_YOLO_BLIP.ipynb  и на сервисе Roboflow , позволяющем размечать и запускать/разворачивать на предобченные YOLO (1-12) моделях тестовые картинки и видео. Разметка как в первом , так и во втором случае сделана на Roboflow.
+
 Проект распознавания предметов на столе. Запустить r requirements.txt. Данные надо распаковать в файте Video.v9i.yolov11.zip в корневую директрю и запустить файл *.ipynb.
 
 Данные были размечены через систему Roboflow.
@@ -15,8 +17,11 @@ roboflow:
   version: 9
   license: CC BY 4.0
   url: https://universe.roboflow.com/aalex11/video-ytrrz/dataset/9
+  
 Код интегрирует метод YOLO и большую модель изображений и видео BLIP, которая генерирует подсказки к распознанным объектам на видео к каждому датафрему типа ("[Frame 200] YOLO: fork, glass plate, glass empty, dish with food, knife, table, tea pot, paper, redpaper, basket, glass with tea, spoon | BLIP: a person is sitting at a table with a plate of food")
+
 Описание вывода:
+
 Тренировочные метрики (обновляются каждый эпизод обучения):
 box_loss — ошибка предсказания границ объектов (боксов). Чем меньше, тем лучше.
 
